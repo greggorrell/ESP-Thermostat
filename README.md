@@ -29,7 +29,7 @@ Occupancy
 
 Layout
 ----------------------------------------
-
+```
   TPH Sensor 1  ------------  
                             | 
   TPH Sensor 2  ------------ ---- MQTT -->  Home Assistant ----> Zone Controller
@@ -53,5 +53,4 @@ Layout
            |
            |-----------> Zone 6 - Living Room (Hydronic Radiant)
          
-`         
-        
+``` 
