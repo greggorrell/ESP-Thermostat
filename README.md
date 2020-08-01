@@ -30,28 +30,28 @@ Occupancy
 Layout
 ----------------------------------------
 
-TPH Sensor 1  ------------  
-                          | 
-TPH Sensor 2  ------------ ---- MQTT -->  Home Assistant ----> Zone Controller
-                          |
-TPH Sensor 3  ------------    
+  TPH Sensor 1  ------------  
+                            | 
+  TPH Sensor 2  ------------ ---- MQTT -->  Home Assistant ----> Zone Controller
+                           |
+  TPH Sensor 3  ------------    
 
 
 
 
-Zone Controller -----> Zone 1 - Basement (Hydronic Baseboard)
-         |
-         |-----------> Zone 2 - 1st Floor (Hydronic Baseboard) 
-         |
-         |-----------> Zone 3 - 2nd Floor (Hydronic Baseboard)
-         |
-         |-----------> Zone 4 - Hot Water
+  Zone Controller -----> Zone 1 - Basement (Hydronic Baseboard)
+           |
+           |-----------> Zone 2 - 1st Floor (Hydronic Baseboard) 
+           |
+           |-----------> Zone 3 - 2nd Floor (Hydronic Baseboard)
+           |
+           |-----------> Zone 4 - Hot Water
          
              (loops to be added)
-         |
-         |-----------> Zone 5 - Master Bedroom/Bathroom, Main Bathroom (Hydronic Radiant)
-         |
-         |-----------> Zone 6 - Living Room (Hydronic Radiant)
+           |
+           |-----------> Zone 5 - Master Bedroom/Bathroom, Main Bathroom (Hydronic Radiant)
+           |
+           |-----------> Zone 6 - Living Room (Hydronic Radiant)
          
 `         
         
